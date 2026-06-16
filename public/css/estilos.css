@@ -1,0 +1,147 @@
+/* --- ESTILOS GENERALES (Compartidos) --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121214;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #202024;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #a8a8b3;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #29292e;
+    background-color: #121214;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #a8a8b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.registro-title {
+    color: #00b4d8;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.btn-registro {
+    background-color: #00b4d8;
+    color: #121214;
+}
+
+.btn-registro:hover {
+    background-color: #90e0ef;
+}
+
+.link-registro:hover {
+    color: #00b4d8;
+}
+
+
+.login-title {
+    color: #4ea8de;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.btn-login {
+    background-color: #4ea8de;
+    color: #121214;
+}
+
+.btn-login:hover {
+    background-color: #90e0ef;
+}
+
+.link-login:hover {
+    color: #4ea8de;
+}
+
+
+.container-welcome {
+    max-width: 500px;
+}
+
+.welcome-title {
+    margin-bottom: 16px;
+    color: #4bb543;
+    font-size: 32px;
+}
+
+.welcome-text {
+    color: #a8a8b3;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn-logout {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn-logout:hover {
+    background-color: #ff4d6d;
+}

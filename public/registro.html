@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="registro-title">Crear Cuenta</h2>
+        <form action="/registro" method="POST">
+            <div class="form-group">
+                <label>Usuario</label>
+                <input type="text" name="usuario" placeholder="Ej: juan123" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Contraseña</label>
+                <input type="password" name="contrasena" placeholder="••••••••" required>
+            </div>
+            
+            <button type="submit" class="btn-registro">Registrarse</button>
+        </form>
+        <a href="login.html" class="link-registro">¿Ya tienes cuenta? Inicia sesión aquí</a>
+    </div>
+</body>
+</html>
